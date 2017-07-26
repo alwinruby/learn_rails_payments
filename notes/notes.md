@@ -63,7 +63,8 @@
         app/views/layouts/application.html.erb
 
         app/views/pages/home.html.erb
-          add div code
+
+        add div code
 
   8. homepage part 2
 
@@ -86,4 +87,11 @@
 
   10. Update layout
         open home.html.erb
-        
+
+        take div code and transfer to application
+
+        push changes to heroku
+
+  11. Credit Card Form
+        Using Stripe
+        Add gem 'stripe' and location from github
