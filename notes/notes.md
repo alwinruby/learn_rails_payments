@@ -83,4 +83,7 @@
 
         import Bootstrap javascript
         app/javascripts/application.js
+
+  10. Update layout
+        open home.html.erb
         
