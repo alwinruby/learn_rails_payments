@@ -39,7 +39,7 @@
 
       run _bundle install --without production_
 
-    5. Heroku
+  5. Heroku
         login to Heroku in the terminal
 
             run heroku apps:create _unique name_ (first-payment-rails-app)
@@ -48,11 +48,27 @@
 
             (https://first-payment-rails-app.herokuapp.com)
 
-    6. Add Twitter Bootstrap
+  6. Add Twitter Bootstrap
 
         add gem 'bootstrap-sass'
 
         run bundle install
 
         add app/assets/stylesheets/bootstrap_custom.css.scss
-        
+
+  7. Improve look of homepage
+
+        open
+
+        app/views/layouts/application.html.erb
+
+        app/views/pages/home.html.erb
+          add div code
+
+  8. homepage part 2
+
+        open
+
+        app/views/layouts/application.htlm.erb - amend
+
+        add app/assets/stylesheets/main.css
