@@ -103,4 +103,21 @@
 
         delete publishable_key in home.html.erb
 
-         
+  12. Charges controller
+        Sign up for a stripe account
+
+        Ensure that the stripe account is on test
+
+        copy the test publishable_api_key -> home.html.erb
+
+        create new charges controller -> app/controllers/charges_controller.rb
+
+        open app/controllers/pages_controller. copy class ChargesController < ApplicationController to charges_controller.rb
+
+        Add the def create method here too
+
+        configure the app.
+
+        create a new initializer -> config/initializers/stripe.rb
+
+        
