@@ -5,7 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.4.0
 
 * System dependencies
 
@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+/Users/alwin/projects1/stripe_processing/learn_rails_payments
