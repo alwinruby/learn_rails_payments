@@ -47,3 +47,12 @@
             run git push heroku master
 
             (https://first-payment-rails-app.herokuapp.com)
+
+    6. Add Twitter Bootstrap
+
+        add gem 'bootstrap-sass'
+
+        run bundle install
+
+        add app/assets/stylesheets/bootstrap_custom.css.scss
+        
