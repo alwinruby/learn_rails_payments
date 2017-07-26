@@ -128,7 +128,7 @@
 
         go to https://github.com/laserlemon/figaro
 
-        add gem and run bundle install
+        add gem and run _bundle install_
 
         then run bundle exec figaro install
 
@@ -141,3 +141,24 @@
         amend home.html.erb
 
         amend ApplicationController
+
+  15. Purchase last
+
+        run _rails generate model Purchase_
+        remove test files
+          rm test/fixtures/purchases.yml
+
+        open db/migrate/ file
+          amend it
+
+          run rake db:migrate
+
+        create purchases_controller.rb
+
+        amend charges_controller.rb
+
+        amend routes.rb
+
+        create app/views/purchases/show.html.erb
+
+        
