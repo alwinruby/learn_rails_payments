@@ -23,4 +23,18 @@
       c. create new view
           app/views/pages/home.html.erb
 
-  4.
+  4. Heroku setup
+
+      ensure version of Ruby is known
+
+        amend gemfile and add gem for postgres
+        plus production
+
+        amend sqlite3
+
+        add gem 'rails_12factor'
+
+      open config/database.yml
+        delete production
+
+      run _bundle install --without production_
