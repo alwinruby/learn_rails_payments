@@ -94,4 +94,13 @@
 
   11. Credit Card Form
         Using Stripe
+
         Add gem 'stripe' and location from github
+
+        Get details from https://stripe.com/docs/checkout/rails -> home.html.erb
+
+        in config/routes.rb add resources :charges
+
+        delete publishable_key in home.html.erb
+
+         
