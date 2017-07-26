@@ -170,3 +170,19 @@
         create a bucket
         Called bucket 'first-payment-rails-app'
         upload a photo and make public.
+
+      update home.html.erb and application.html.erb
+
+  17. Make receipt URL more secure.
+
+        run rails g migration AddUUIDToPurchases uuid:string
+
+        rake db:migrate
+
+        amend charges_controller.rb
+
+        amend purchase.rb
+
+        amend purchases_controller.rb
+
+        
