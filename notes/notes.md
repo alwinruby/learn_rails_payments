@@ -134,5 +134,10 @@
 
         copy secret_api_key and publishable_api_key to application.yml
 
-        create app/views/charges/create.html.erb
-        
+        create app/views/charges/
+
+  14. Modify Credit Card Form
+
+        amend home.html.erb
+
+        amend ApplicationController
