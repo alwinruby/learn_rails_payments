@@ -27,14 +27,23 @@
 
       ensure version of Ruby is known
 
-        amend gemfile and add gem for postgres
-        plus production
+          amend gemfile and add gem for postgres
+          plus production
 
-        amend sqlite3
+          amend sqlite3
 
-        add gem 'rails_12factor'
+          add gem 'rails_12factor'
 
       open config/database.yml
-        delete production
+          delete production
 
       run _bundle install --without production_
+
+    5. Heroku
+        login to Heroku in the terminal
+
+            run heroku apps:create _unique name_ (first-payment-rails-app)
+
+            run git push heroku master
+
+            (https://first-payment-rails-app.herokuapp.com)
