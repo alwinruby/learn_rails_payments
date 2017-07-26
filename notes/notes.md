@@ -72,3 +72,15 @@
         app/views/layouts/application.htlm.erb - amend
 
         add app/assets/stylesheets/main.css
+
+  9. homepage part 3
+
+        add image to app/assets/images
+
+        set the path in the home.html.erb
+
+        amend image details
+
+        import Bootstrap javascript
+        app/javascripts/application.js
+        
