@@ -161,4 +161,12 @@
 
         create app/views/purchases/show.html.erb
 
-        
+  16. Images on Amazon S3
+
+      heroku run rake db:migrate
+
+      create amazon S3 account
+        go to S3 in Storage
+        create a bucket
+        Called bucket 'first-payment-rails-app'
+        upload a photo and make public.
