@@ -40,6 +40,7 @@
       run _bundle install --without production_
 
   5. Heroku
+
         login to Heroku in the terminal
 
             run heroku apps:create _unique name_ (first-payment-rails-app)
@@ -86,6 +87,7 @@
         app/javascripts/application.js
 
   10. Update layout
+
         open home.html.erb
 
         take div code and transfer to application
@@ -93,6 +95,7 @@
         push changes to heroku
 
   11. Credit Card Form
+
         Using Stripe
 
         Add gem 'stripe' and location from github
@@ -104,6 +107,7 @@
         delete publishable_key in home.html.erb
 
   12. Charges controller
+
         Sign up for a stripe account
 
         Ensure that the stripe account is on test
@@ -120,4 +124,15 @@
 
         create a new initializer -> config/initializers/stripe.rb
 
+  13. Install Figaro
+
+        go to https://github.com/laserlemon/figaro
+
+        add gem and run bundle install
+
+        then run bundle exec figaro install
+
+        copy secret_api_key and publishable_api_key to application.yml
+
+        create app/views/charges/create.html.erb
         
