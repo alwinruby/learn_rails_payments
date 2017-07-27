@@ -24,3 +24,5 @@ Things you may want to cover:
 * ...
 
 /Users/alwin/projects1/stripe_processing/learn_rails_payments
+
+App running at https://first-payment-rails-app.herokuapp.com
