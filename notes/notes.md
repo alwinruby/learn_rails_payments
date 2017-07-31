@@ -186,4 +186,5 @@
         amend purchases_controller.rb
 
   18. Sendgrid and Email settings
-        
+
+  19.       
