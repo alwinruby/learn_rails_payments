@@ -25,6 +25,14 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro to securely configure app
 gem 'figaro'
 
+
+#activeadmin  for admin system
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+# devise for user authentication
+gem 'devise'
+
 # add twitter Bootstrap
 gem 'bootstrap-sass'
 
